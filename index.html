@@ -1,4 +1,7 @@
-<div class="fade"></div>
+<div class="fade">
+    <div class="fade-in"><button onclick="document.location='speedtransition.html'" class="skipbutton">Skip</button></div>
+</div>
+
 
 <head>
     <link rel="stylesheet" href="style.css">
@@ -19,7 +22,8 @@
 
         <p>By supporting PadawanDAO you are contributing to the next generation of fighters for decentralization.</p>
     </div>
-    <button id="some-button">button</button>
+    <div class="fade-in">
+        <button id="some-button" onclick="document.location='speedtransition.html'" class="continuetohyperspace">Enter The Force</button></div>
     <script>
         document.getElementById("some-button").style.display = "none";
 
@@ -31,6 +35,6 @@
             window.location = "project.html"
         }
 
-        setTimeout(showStuff, 30000);
+        setTimeout(showStuff, 20000);
     </script>
 </section>
